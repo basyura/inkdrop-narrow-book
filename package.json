@@ -1,13 +1,13 @@
 {
-  "name": "switch-notebook",
-  "main": "./lib/switch-notebook",
+  "name": "narrow-book",
+  "main": "./lib/plugin",
   "version": "0.1.1",
   "description": "Quickly switch between notebooks",
   "keywords": [],
-  "repository": "https://github.com/marconi/switch-notebook",
+  "repository": "https://github.com/basyura/inkdrop-narrow-book",
   "license": "MIT",
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.x"
   },
   "dependencies": {
     "semantic-ui-react": "0.88.2"
