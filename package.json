@@ -2,7 +2,7 @@
   "name": "narrow-book",
   "main": "./lib/plugin",
   "version": "0.1.1",
-  "description": "Quickly switch between notebooks",
+  "description": "Quickly narrow down books",
   "keywords": [],
   "repository": "https://github.com/basyura/inkdrop-narrow-book",
   "license": "MIT",
