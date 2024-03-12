@@ -1,10 +1,8 @@
 # narrow-book
 
-**This is fork from marconi/switch-notebook**
+This is a plugin for narrow down books.
+It navigates to the selected book (go to workspace).
 
-Inkdrop's plugin to narrow by book.
-
-![Screenshot](https://github.marconijr.com/switch-notebook/screenshot.png)
 
 ### Install
 
@@ -12,3 +10,18 @@ Inkdrop's plugin to narrow by book.
 ipm install narrow-book
 ```
 
+## Commands
+
+| Command          | Explanation        |
+| ---------------- | -------------------|
+| narrow-book:open | open book selector |
+
+## Settings
+
+| key            | default                     |
+| ---------------| ----------------------------|
+| migemoDictPath | migemo ditionary file path  |
+
+## LICENSE
+
+MIT
