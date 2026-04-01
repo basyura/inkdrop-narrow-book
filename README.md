@@ -3,6 +3,8 @@
 This is a plugin for narrow down books.
 It navigates to the selected book (go to workspace).
 
+Tested for Inkdrop v6.
+
 
 ### Install
 

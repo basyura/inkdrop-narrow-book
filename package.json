@@ -7,10 +7,9 @@
   "repository": "https://github.com/basyura/inkdrop-narrow-book",
   "license": "MIT",
   "engines": {
-    "inkdrop": "^5.x"
+    "inkdrop": "^6.x"
   },
   "dependencies": {
-    "jsmigemo": "^0.4.3",
-    "semantic-ui-react": "0.88.2"
+    "jsmigemo": "^0.4.3"
   }
 }

@@ -8,7 +8,7 @@
 - API に関しては https://github.com/inkdropapp/api-docs/ サイトを確認すること。特に、inkdrop v5 から v6 への plugin アップデートに関しては https://github.com/inkdropapp/api-docs/blob/main/src/app/appendix/plugin-migration-from-v5-to-v6/page.mdx を参照すること。
 
 ## Project Structure & Module Organization
-This repository is a small Inkdrop plugin. Runtime code lives in `lib/`: `plugin.js` registers the plugin and config, and `narrow-book-dialog.js` implements the modal UI and notebook filtering logic. Styles are in `styles/switch-notebook.less`. Package metadata and dependencies are defined in `package.json`, and `README.md` documents installation and the `narrow-book:open` command. When editor integration is needed, assume Inkdrop uses CodeMirror v6 APIs rather than legacy CodeMirror 5 patterns.
+This repository is a small Inkdrop plugin. Runtime code lives in `lib/`: `plugin.js` registers the plugin and config, and `narrow-book-dialog.js` implements the modal UI and notebook filtering logic. Styles are in `styles/switch-notebook.css`. Package metadata and dependencies are defined in `package.json`, and `README.md` documents installation and the `narrow-book:open` command. When editor integration is needed, assume Inkdrop uses CodeMirror v6 APIs rather than legacy CodeMirror 5 patterns.
 
 ## Build, Test, and Development Commands
 There is no build step or bundled CLI in this repository. Use these commands during development:
