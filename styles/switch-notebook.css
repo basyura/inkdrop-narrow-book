@@ -1,6 +1,7 @@
 .narrow-book-dialog {
-  /* margin-top: 80px !important; */
-  /* background: none !important; */
+  margin-top: 80px !important;
+  align-self: flex-start;
+  background: none !important;
 }
 
 .narrow-book-dropdown {
@@ -40,6 +41,6 @@
 .narrow-book-option.is-active {
   background: var(
     --sidebar-menu-item-hover-background-color,
-    rgba(127, 127, 127, 0.12)
+    rgba(127, 127, 127, 0.4)
   );
 }
